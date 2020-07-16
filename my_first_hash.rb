@@ -8,7 +8,7 @@ end
 
 def shipping_manifest
   shipping_manifest = {"whale bone corsets" => 5,
-                       "porcelain vases" => 2,
+                       "porcelain vases" => 2, 
                        "oil paintings" => 3}
 end
 
@@ -18,10 +18,10 @@ def retrieval
                   "porcelain vases" => 2,
                   "oil paintings" => 3
                  }
-
+  return shipping_manifest["oil paintings"]
+end
   # Look up the value of the "oil paintings" key in the shipping_manifest hash below
 
-end
 
 def adding
   shipping_manifest = {
@@ -40,3 +40,5 @@ end
 
 
   # return the shipping_manifest hash below
+
+
